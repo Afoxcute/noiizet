@@ -12,7 +12,7 @@ import {
 import bs58 from 'bs58';
 import { IDL } from "../target/types/nft_staking";
 
-const connection = new Connection(clusterApiUrl("devnet"));
+const connection = new Connection(clusterApiUrl("testnet"));
 
 const PROGRAM_ID = new PublicKey("89ChBjYeC4sM7GWRzvSoEZkDapFBiDNrxxT5PkM6uevN")
 const VERIFIED_NFT_CREATOR = new PublicKey("HwnHVTCHJG4R1uc8HZodiYJzru5C5foqqVipdVoDuv7o");

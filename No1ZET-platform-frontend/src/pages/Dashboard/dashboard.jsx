@@ -52,11 +52,11 @@ const Mainboard = () => {
       <div className="flex flex-col w-11/12 gap-4 ">
         {/* <div className="max-w-7xl mx-auto px-4 flex justify-center items-center"> */}
         <div className="flex flex-row items-center justify-start dark:text-white text-title-light gap-4">
-          <img
+          {/* <img
             className="w-14 hidden dark:flex"
             alt=""
             src="/icons/logo1.svg"
-          />
+          /> */}
           <img
             className="w-14 dark:hidden flex"
             alt=""

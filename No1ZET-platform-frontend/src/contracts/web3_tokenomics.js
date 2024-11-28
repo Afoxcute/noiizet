@@ -24,7 +24,7 @@ import * as Constants from "./constantsToknomics";
 import * as keys from "./key_tokenomics";
 import { IDL } from "./tokenomics.ts"
 
-const connection = new Connection(clusterApiUrl("devnet"));
+const connection = new Connection(clusterApiUrl("testnet"));
 
 export const getProgram = (wallet) => {
   let provider = new anchor.AnchorProvider(

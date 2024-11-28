@@ -29,7 +29,7 @@ import { VESTING_IDL } from "./vesting";
 // const [buyAmount, setBuyAmount] = useState(0);
 // const [totalBuyAmount, setTotalBuyAmount] = useState(0);
 
-const connection = new Connection(clusterApiUrl("devnet"));
+const connection = new Connection(clusterApiUrl("testnet"));
 
 export const getVestingProgram = (wallet) => {
   let provider = new anchor.AnchorProvider(

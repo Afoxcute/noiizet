@@ -9,7 +9,7 @@ export const PRESALE_PROGRAM_ID = new PublicKey(
   "xhhcC3DTaLem69hLjw1qt136FFboNQDx34bVe83JDkM"
 );
 export const ADMINWALLET = new PublicKey(
-  "3dQpUZtmujzzCZdRXyveTdBS2w6ykncdXG5JjtDbHU7f"
+  "BCUitLaS7hE4PtHpLTMwGu6H7srMvieucEcwS4aVCoBG"
 );
 
 export const FRENS = new PublicKey(

@@ -13,42 +13,48 @@ Anchor CLI: Included in your project dependencies, but you can check the Anchor 
 A Solana wallet with sufficient SOL to cover deployment fees.
 Deployment Process
 
-1. Set Solana Cluster
-Select the Solana cluster you wish to deploy to (devnet, testnet, or mainnet):
+1. Set Soon Cluster
+Select the Soon cluster you wish to deploy to (devnet, testnet):
 
-solana config set --url https://api.devnet.solana.com # For devnet
-
+solana config set --url https://rpc.testnet.soo.network/rpc# For testnet
+
+
 
 
 2. Build Your Program
 Compile your Solana program:
 
 anchor build
-
+
+
 Note the program ID output by this command, as you will need it for deployment.
 
 3. Fund Your Wallet
-Ensure your wallet has enough SOL for the deployment. If deploying to devnet or testnet, you can airdrop SOL:
+Ensure your wallet has enough SOL for the deployment. If deploying to devnet or testnet, you can airdrop SOON tokens using the official faucet:
 
 solana airdrop 1
-
+
+
 4. Update Anchor.toml
 Update the Anchor.toml file to include your program's ID under the appropriate cluster section:
 
 Toml
 
-[programs.devnet]
-your_program_name = "YourProgramID"
+[programs.testnet]
+your_program_name = "YourProgramID"
+
 5. Deploy the Program
 Deploy your program to the specified Solana cluster:
 
-anchor deploy
+anchor deploy
+
 
 
 6. Verify Deployment
 Check that your program has been deployed successfully:
 
-solana account YourProgramID
+solana account YourProgramID
+
 
 Post-Deployment
 After deployment, you can interact with your program using client-side scripts or the command line, based on the functionalities you've implemented.

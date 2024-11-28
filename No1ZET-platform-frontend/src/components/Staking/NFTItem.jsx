@@ -33,8 +33,8 @@ const NFTItem = ({ img, name, mint, isStaked, isStaking, onfetchAll }) => {
 
   // debugger;
 
-  const SOLANA_HOST = clusterApiUrl("devnet");
-  const connection = new anchor.web3.Connection(SOLANA_HOST);
+  const SOON_HOST = clusterApiUrl("testnet");
+  const connection = new anchor.web3.Connection(SOON_HOST);
 
   const wallet = useWallet();
 
@@ -164,8 +164,8 @@ const NFTItem = ({ img, name, mint, isStaked, isStaking, onfetchAll }) => {
               className="flex flex-row items-center justify-start gap-1 "
               href={
                 isStaking === "Staking"
-                  ? "https://solscan.io/account/6ugnW3Nk1WTR5knbUexFXkqC2CaWCdLtD8xTyxoxcAZV#domains"
-                  : "https://explorer.solana.com/address/HKaHi9ALjAgYmjKf7m7skqJcn6GKm9o5CVHy8Q3JcEKL?cluster=devnet"
+                  ? "https://explorer.testnet.soo.network/address/A8euEuZ3kkhtwnhf7tHqXyst7AigA8pneC12mNPjRNry#domains"
+                  : "https://explorer.testnet.soo.network/address/A8euEuZ3kkhtwnhf7tHqXyst7AigA8pneC12mNPjRNry"
               }
               target="blank"
             >

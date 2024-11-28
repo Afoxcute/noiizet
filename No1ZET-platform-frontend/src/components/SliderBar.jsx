@@ -29,8 +29,8 @@ import * as anchor from "@project-serum/anchor";
 const SliderBar = () => {
   const location = useLocation();
   const { isDarkMode } = useTheme();
-  const SOLANA_HOST = clusterApiUrl("devnet");
-  const connection = new anchor.web3.Connection(SOLANA_HOST);
+  const SOON_HOST = clusterApiUrl("testnet");
+  const connection = new anchor.web3.Connection(SOON_HOST);
 
   const wallet = useWallet();
   const [isAdmin, setIsAdmin] = useState(false);

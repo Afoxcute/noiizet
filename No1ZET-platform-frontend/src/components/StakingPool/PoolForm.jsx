@@ -28,8 +28,8 @@ import Button from '../Button';
 import TextField from '../TextField';
 
 const PoolForm = ({ setIsCreate }) => {
-    const SOLANA_HOST = clusterApiUrl("devnet");
-    const connection = new anchor.web3.Connection(SOLANA_HOST);
+    const SOON_HOST = clusterApiUrl("testnet");
+    const connection = new anchor.web3.Connection(SOON_HOST);
 
     const wallet = useWallet();
 

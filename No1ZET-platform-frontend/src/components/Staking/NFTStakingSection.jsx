@@ -38,8 +38,8 @@ const NFTStakingSection = () => {
   const [unStakedNft, setUnStakedNfts] = useState([]);
   const [claimableReward, setClaimableReward] = useState(0);
 
-  const SOLANA_HOST = clusterApiUrl("devnet");
-  const connection = new anchor.web3.Connection(SOLANA_HOST);
+  const SOON_HOST = clusterApiUrl("testnet");
+  const connection = new anchor.web3.Connection(SOON_HOST);
   const wallet = useWallet();
 
   async function fetchAll() {

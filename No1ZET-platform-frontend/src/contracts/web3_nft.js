@@ -30,7 +30,7 @@ import {
 // const [buyAmount, setBuyAmount] = useState(0);
 // const [totalBuyAmount, setTotalBuyAmount] = useState(0);
 
-const connection = new Connection(clusterApiUrl("devnet"));
+const connection = new Connection(clusterApiUrl("testnet"));
 
 
 export const getProgram = (wallet) => {

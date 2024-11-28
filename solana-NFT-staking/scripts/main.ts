@@ -40,7 +40,7 @@ export const mintNewNFT = async (
   index: Number
 ): Promise<Array<PublicKey>> => {
   const commitment: Commitment = 'processed';
-  const network = "https://api.devnet.solana.com/"; // clusterApiUrl("mainnet-beta");
+  const network = "https://rpc.testnet.soo.network/rpc"; // clusterApiUrl("mainnet-beta");
   const connection = new Connection(
     network,
     {

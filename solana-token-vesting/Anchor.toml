@@ -1,14 +1,14 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.devnet]
+[programs.testnet]
 solana_spltoken_vesting = "FPMWFeVjrYcZJXRDU8W2XrMVNHmHGa6qXrJ16rW92fRp"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Devnet"
+cluster = "Testnet"
 wallet = "/home/afolabi/Downloads/deployer.json"
 
 [scripts]

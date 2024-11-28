@@ -35,8 +35,8 @@ import Button from './Button';
 const StakeCard = ({ heading, disable }) => {
     const [searchParams, setSearchParams] = useSearchParams();
 
-    const SOLANA_HOST = clusterApiUrl("devnet");
-    const connection = new anchor.web3.Connection(SOLANA_HOST);
+    const SOON_HOST = clusterApiUrl("testnet");
+    const connection = new anchor.web3.Connection(SOON_HOST);
 
     const wallet = useWallet();
 
